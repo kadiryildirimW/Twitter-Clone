@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "kadir",
+  "password": "123"
+}
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "firstname": "firstname kadir",
+  "lastname": "yildirim1adsadsasd31",
+  "email": "kadir@gmail",
+  "username": "kadir",
+  "password": "123",
+  "birthday": "12",
+  "link": "www.mdn.com",
+  "location": "Antalya"
+}
